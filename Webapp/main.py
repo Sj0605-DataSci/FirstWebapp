@@ -16,13 +16,13 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("pythonProject8/style/style.css")
+local_css("Webapp/style/style.css")
 
 
 
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_tfb3estd.json")
-img_deepfake = Image.open("pythonProject8/Images/Deepfake.jpg")
-img_jarvis = Image.open("pythonProject8/Images/jarvis.jpg")
+img_deepfake = Image.open("Webapp/Images/Deepfake.jpg")
+img_jarvis = Image.open("Webapp/Images/jarvis.jpg")
 
 with st.container():
     st.subheader("Hi I am Sanyam :wave:")
