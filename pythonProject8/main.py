@@ -21,8 +21,8 @@ local_css("pythonProject8/style/style.css")
 
 
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_tfb3estd.json")
-img_deepfake = Image.open("Images/Deepfake.jpg")
-img_jarvis = Image.open("Images/jarvis.jpg")
+img_deepfake = Image.open("pythonProject8/Images/Deepfake.jpg")
+img_jarvis = Image.open("pythonProject8/Images/jarvis.jpg")
 
 with st.container():
     st.subheader("Hi I am Sanyam :wave:")
